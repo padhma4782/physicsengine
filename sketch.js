@@ -14,7 +14,7 @@ function setup() {
     isStatic: false
   }
   object=Bodies.rectangle(200,100,50,50,object_options);
-  //World.add(world.object);
+  World.add(world,object);
   console.log(object);
   object.speed=5;
   
