@@ -11,7 +11,7 @@ function setup() {
   world=engine.world;
   
   var object_options= {
-    restitution: 0.8
+    restitution: 1.0
   }
   object=Bodies.rectangle(200,100,50,50,object_options);
   World.add(world,object);
