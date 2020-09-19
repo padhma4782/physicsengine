@@ -11,12 +11,12 @@ function setup() {
   world=engine.world;
   
   var object_options= {
-    isStatic: false
+    restitution: 0.8
   }
   object=Bodies.rectangle(200,100,50,50,object_options);
   World.add(world,object);
   console.log(object);
-  object.speed=5;
+ 
   
 }
 
